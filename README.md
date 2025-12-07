@@ -23,6 +23,36 @@ Este projeto tem como objetivo desenvolver, em linguagem **C**, o jogo War Estru
 
 ---
 
+## Funcionalidades Implementadas
+
+### Nível Novato ✅
+
+- Cadastro de territórios com struct `Territorio`
+- Armazenamento de nome, cor do exército e quantidade de tropas
+- Exibição formatada dos territórios cadastrados
+
+### Nível Aventureiro ✅
+
+- Sistema de batalhas com rolagem de dados (1-6)
+- Alocação dinâmica de memória para territórios
+- Uso de ponteiros para manipulação de estruturas
+- Menu interativo para controle do jogo
+- Conquista de territórios e transferência de tropas
+- Verificação de condições de vitória
+
+### Nível Mestre ✅
+
+- Sistema de múltiplos jogadores com cadastro individual
+- 8 missões estratégicas diferentes disponíveis
+- Sorteio automático de missões no início do jogo
+- Verificação automática de cumprimento de missões após cada turno
+- Alocação dinâmica de memória para jogadores e missões
+- Múltiplas condições de vitória (missão cumprida ou dominação total)
+- Passagem de parâmetros por valor e por referência
+- Gerenciamento completo de memória com liberação adequada
+
+---
+
 ## Como compilar
 
 Certifique-se de ter o compilador `gcc` instalado e rode o seguinte comando no terminal:
@@ -47,7 +77,7 @@ O programa solicitará a entrada dos dados para os territórios e, em seguida, p
 
 ## Estrutura do projeto
 
-- `war.c`: Código-fonte principal do programa em C.
+- `war.c`: Código-fonte principal do programa (Nível Mestre - com missões estratégicas).
 
 - `.gitignore`: Arquivo para ignorar arquivos compilados e temporários.
 
